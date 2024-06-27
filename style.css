@@ -153,6 +153,15 @@ body{
 }
 
 @media (max-width: 768px) {
+    body{
+        font-family: "Kanit", sans-serif;
+        background-color:black;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .heading h2{
         font-size:1.5em;
     }
