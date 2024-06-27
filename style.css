@@ -162,6 +162,9 @@ body{
         justify-content: center;
         flex-direction: column;
     }
+    .heading{
+        margin-left:10%;
+    }
     .heading h2{
         font-size:1.5em;
     }
@@ -177,6 +180,7 @@ body{
     }
     .ip{
         margin-top:25%;
+        margin-left:10%;
     }
     .ip .url-input{
         width:250px;
