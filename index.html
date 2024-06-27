@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Detection AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/480/external-fishing-internet-security-vitaliy-gorbachev-flat-vitaly-gorbachev.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>Phishing URL Detection AI</h2>
+        <div class="al">
+            <div class="c-al"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="ip">
+            <form>
+                <input type="text" class="url-input" placeholder="Type URL Here..." required>
+                <input type="button" class="check-btn" value="Check">
+            </form>
+            <div class="result">
+                <h2 class="otxt"></h2>
+                <div class="p-anim">
+                    <img class="loader" width="50" height="50" src="https://img.icons8.com/material-outlined/480/FFFFFF/available-updates.png" alt="loader">
+                    <img class="safe" width="50" height="50" src="https://img.icons8.com/color/480/verified-account--v1.png" alt="verified-account--v1"/>
+                    <img class="unsafe" width="50" height="50" src="https://img.icons8.com/color/480/cancel--v1.png" alt="cancel--v1"/>
+                </div>
+                <div class="op-txt">
+                    <h3 class="op-txtv">The Provided URL IS Not A Phishing URL</h3>
+                    <h3 class="check-new">Check Another URL</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
